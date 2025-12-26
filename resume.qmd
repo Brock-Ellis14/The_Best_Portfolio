@@ -3,12 +3,11 @@ layout: cv
 title: "Brock Ellis Resume"
 ---
 
-# Brock Ellis
 Data Science Major | AI Engineering Minor | Statistics Minor
 
 <div id="webaddress">
 <a href="mailto:Brockalvin14@gmail.com">Brockalvin14@gmail.com</a>
-| 509-306-3822 | <a href="https://github.com/yourusername">GitHub Portfolio</a>
+| 509-306-3822
 </div>
 
 ## Currently
@@ -29,22 +28,30 @@ __Brigham Young University - Idaho__
 
 ## Projects
 
-`January 2025`
-__Time-Series Financial Forecasting Model (ML)__
-*Solo Project – Wrangling & ML Modeling*
-- Engineered a Random Forest/XGBoost model to forecast S&P 500 returns using 120+ macroeconomic features.
-- Validated via strict sequential splitting to prevent data leakage; achieved 54% upside recall.
+`October 2025`
+__Multi-Horizon S&P 500 Forecasting Pipeline (R/Python)__
+- Built an end-to-end ML pipeline, extracting 120+ macro and technical indicators via Tidyquant and engineering a high-dimensional feature set of multi-period lags (3m, 6m, 1y, 2y) to capture short and long-term momentum.
 
-`January 2025`
+- Developed a Random Forest / XGBoost Multi-Class Classifier in Python to categorize monthly returns into four risk regimes, ranging from "Strong Positive" ($>1.5\%$) to "Tail Risk" ($<-1.5\%$).
+
+- Implemented Strict Sequential Splitting (Time-Series CV) to eliminate look-ahead bias/data leakage; achieved a 54% recall on "Strong Positive" returns, outperforming baseline random-walk expectations.
+
+- Optimized model hyperparameters to address asymmetric loss, prioritizing the reduction of False Negatives in downside risk detection for improved capital preservation.
+
+`December 2025`
 __Economic Insights: Financial Crisis vs. Covid Crisis__
 *Solo Project – Wrangling & Visualization*
-- Executed a comparative R-based macro analysis of GFC vs. COVID crises using FRED and ETF data.
-- Quantified the structural failure of diversification, showing near-perfect sector correlation (0.94–1.00) during the COVID shock.
+- Engineered a comparative analysis of the 2008 Financial Crisis and 2020 COVID shock using R (Tidyquant/XTS), pulling live data via FRED API to model the intersection of equity returns and macro indicators (Unemployment, CPI, Fed Funds).
 
-`August 2025`
+- Quantified the "Diversification Melt-down" by constructing sector correlation heatmaps; identified a 25% surge in cross-sector synchronization during COVID (0.94+ correlation) compared to the more heterogeneous GFC regime.
+
+- Modeled Tail Risk by calculating Maximum Drawdown and Risk-Return profiles for 11 SPDR sectors, demonstrating the transition from a demand-driven deflationary crisis (GFC) to a supply-driven inflationary shock (COVID).
+
+`June 2025`
 __MS Gene Expression Analysis__
 *Solo Project – Wrangling & Stat Tests/Modeling*
 - Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling.
+
 - Identified statistically significant differential expression in 2 immune-related genes with proper model validation.
 
 ## Experience

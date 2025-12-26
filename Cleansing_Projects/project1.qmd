@@ -7,6 +7,8 @@ format:
     self-contained: true
     page-layout: full
     title-block-banner: true
+    fig-height: 6
+    fig-width: 9
     toc: true
     toc-depth: 3
     toc-location: body
