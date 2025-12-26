@@ -1,51 +1,74 @@
 ---
 layout: cv
-title: Resume
+title: "Brock Ellis Resume"
 ---
+
 # Brock Ellis
-Data Science Major, AI Engineering Minor, Statistics Minor
+Data Science Major | AI Engineering Minor | Statistics Minor
 
 <div id="webaddress">
-<a href="brockalvin14@gmail.com">brockalvin14@gmail.com</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:Brockalvin14@gmail.com">Brockalvin14@gmail.com</a>
+| 509-306-3822 | <a href="https://github.com/yourusername">GitHub Portfolio</a>
 </div>
-
 
 ## Currently
 
-Finishing my last year of my Bachelors at BYU-Idaho.
+Data Science student at BYU-Idaho seeking Summer 2026 internship opportunities. 
 Expecting to graduate by the end of 2026.
 
 ### Specialized in
-
-Bayesian Stats, Time Series, ML engineering and ML ops.
-
+Machine Learning, Financial Data Analysis.
 
 ## Education
 
-`2015-2019`
-__Zillah High School.__
+`2022 - Present`
+__Brigham Young University - Idaho__
+*Data Science Major (AI Engineering & Statistics Minors)*
+- **Career Specific GPA:** 3.9
+- **Expected Graduation:** Fall 2026
 
-*Honors Diploma*
-*3.85 GPA*
+## Projects
 
-`2024 - now`
-__Brigham Young University__
-*3.9 Career Specific GPA*
+`January 2025`
+__Time-Series Financial Forecasting Model (ML)__
+*Solo Project – Wrangling & ML Modeling*
+- Engineered a Random Forest/XGBoost model to forecast S&P 500 returns using 120+ macroeconomic features.
+- Validated via strict sequential splitting to prevent data leakage; achieved 54% upside recall.
 
+`January 2025`
+__Economic Insights: Financial Crisis vs. Covid Crisis__
+*Solo Project – Wrangling & Visualization*
+- Executed a comparative R-based macro analysis of GFC vs. COVID crises using FRED and ETF data.
+- Quantified the structural failure of diversification, showing near-perfect sector correlation (0.94–1.00) during the COVID shock.
 
+`August 2025`
+__MS Gene Expression Analysis__
+*Solo Project – Wrangling & Stat Tests/Modeling*
+- Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling.
+- Identified statistically significant differential expression in 2 immune-related genes with proper model validation.
 
 ## Experience
 
-`Jan 2023- Sept 2024`
+`Feb 2023 - Aug 2024`
 __KeyBank__, Yakima WA
+*Private Client Banker*
+- Analyzed client financial data for 300+ accounts, achieving a 30% increase in product adoption and a 95% satisfaction rating.
+- Facilitated loan applications and retirement planning, transitioning over $500,000 into investment products.
 
-- Private Client Banker
-- Searcehd for and Discovered Opportunities to invest and plan with a Financial Advisor
+## Technical Skills
 
+**Programming & Tools**
+Python, C#, SQL, R, Power BI, Excel, SQLite3.
 
+**Libraries**
+- **Python:** Pandas, NumPy, Lets-Plot, Scikit-learn, TensorFlow, Keras.
+- **R:** Tidyverse, TidyQuant, Lubridate, Mosaic, SF, Car.
 
+**Licenses**
+- Series 6 & 63 FINRA
 
-<!-- ### Footer
+## Relevant Coursework
 
-Last updated: May 2013 -->
+- **Math/Stats:** Linear Algebra, Probability and Statistics, Linear Regression, Bayesian Statistics, Discrete Mathematics, Multivariable Calculus.
+- **Computer Science:** SQL, Object Oriented Programming, Data Structures Programming.
+- **Data Science:** Data Wrangling and Visualization, Machine Learning, ML OPS, Library Creation.
