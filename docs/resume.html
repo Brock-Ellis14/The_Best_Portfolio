@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -303,9 +332,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#brock-ellis" id="toc-brock-ellis" class="nav-link active" data-scroll-target="#brock-ellis">Brock Ellis</a>
-  <ul class="collapse">
-  <li><a href="#currently" id="toc-currently" class="nav-link" data-scroll-target="#currently">Currently</a>
+  <li><a href="#currently" id="toc-currently" class="nav-link active" data-scroll-target="#currently">Currently</a>
   <ul class="collapse">
   <li><a href="#specialized-in" id="toc-specialized-in" class="nav-link" data-scroll-target="#specialized-in">Specialized in</a></li>
   </ul></li>
@@ -314,7 +341,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
   <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
   <li><a href="#relevant-coursework" id="toc-relevant-coursework" class="nav-link" data-scroll-target="#relevant-coursework">Relevant Coursework</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -341,11 +367,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="brock-ellis" class="level1">
-<h1>Brock Ellis</h1>
 <p>Data Science Major | AI Engineering Minor | Statistics Minor</p>
 <div id="webaddress">
-<p><a href="mailto:Brockalvin14@gmail.com">Brockalvin14@gmail.com</a> | 509-306-3822 | <a href="https://github.com/yourusername">GitHub Portfolio</a></p>
+<p><a href="mailto:Brockalvin14@gmail.com">Brockalvin14@gmail.com</a> | 509-306-3822</p>
 </div>
 <section id="currently" class="level2">
 <h2 class="anchored" data-anchor-id="currently">Currently</h2>
@@ -361,9 +385,21 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<p><code>January 2025</code> <strong>Time-Series Financial Forecasting Model (ML)</strong> <em>Solo Project – Wrangling &amp; ML Modeling</em> - Engineered a Random Forest/XGBoost model to forecast S&amp;P 500 returns using 120+ macroeconomic features. - Validated via strict sequential splitting to prevent data leakage; achieved 54% upside recall.</p>
-<p><code>January 2025</code> <strong>Economic Insights: Financial Crisis vs.&nbsp;Covid Crisis</strong> <em>Solo Project – Wrangling &amp; Visualization</em> - Executed a comparative R-based macro analysis of GFC vs.&nbsp;COVID crises using FRED and ETF data. - Quantified the structural failure of diversification, showing near-perfect sector correlation (0.94–1.00) during the COVID shock.</p>
-<p><code>August 2025</code> <strong>MS Gene Expression Analysis</strong> <em>Solo Project – Wrangling &amp; Stat Tests/Modeling</em> - Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling. - Identified statistically significant differential expression in 2 immune-related genes with proper model validation.</p>
+<p><code>October 2025</code> <strong>Multi-Horizon S&amp;P 500 Forecasting Pipeline (R/Python)</strong> - Built an end-to-end ML pipeline, extracting 120+ macro and technical indicators via Tidyquant and engineering a high-dimensional feature set of multi-period lags (3m, 6m, 1y, 2y) to capture short and long-term momentum.</p>
+<ul>
+<li><p>Developed a Random Forest / XGBoost Multi-Class Classifier in Python to categorize monthly returns into four risk regimes, ranging from “Strong Positive” (<span class="math inline">\(&gt;1.5\%\)</span>) to “Tail Risk” (<span class="math inline">\(&lt;-1.5\%\)</span>).</p></li>
+<li><p>Implemented Strict Sequential Splitting (Time-Series CV) to eliminate look-ahead bias/data leakage; achieved a 54% recall on “Strong Positive” returns, outperforming baseline random-walk expectations.</p></li>
+<li><p>Optimized model hyperparameters to address asymmetric loss, prioritizing the reduction of False Negatives in downside risk detection for improved capital preservation.</p></li>
+</ul>
+<p><code>December 2025</code> <strong>Economic Insights: Financial Crisis vs.&nbsp;Covid Crisis</strong> <em>Solo Project – Wrangling &amp; Visualization</em> - Engineered a comparative analysis of the 2008 Financial Crisis and 2020 COVID shock using R (Tidyquant/XTS), pulling live data via FRED API to model the intersection of equity returns and macro indicators (Unemployment, CPI, Fed Funds).</p>
+<ul>
+<li><p>Quantified the “Diversification Melt-down” by constructing sector correlation heatmaps; identified a 25% surge in cross-sector synchronization during COVID (0.94+ correlation) compared to the more heterogeneous GFC regime.</p></li>
+<li><p>Modeled Tail Risk by calculating Maximum Drawdown and Risk-Return profiles for 11 SPDR sectors, demonstrating the transition from a demand-driven deflationary crisis (GFC) to a supply-driven inflationary shock (COVID).</p></li>
+</ul>
+<p><code>June 2025</code> <strong>MS Gene Expression Analysis</strong> <em>Solo Project – Wrangling &amp; Stat Tests/Modeling</em> - Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling.</p>
+<ul>
+<li>Identified statistically significant differential expression in 2 immune-related genes with proper model validation.</li>
+</ul>
 </section>
 <section id="experience" class="level2">
 <h2 class="anchored" data-anchor-id="experience">Experience</h2>
@@ -384,7 +420,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

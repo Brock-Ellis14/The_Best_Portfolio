@@ -35,21 +35,21 @@
     "href": "resume.html",
     "title": "Brock Ellis Resume",
     "section": "",
-    "text": "Data Science Major | AI Engineering Minor | Statistics Minor\n\nBrockalvin14@gmail.com | 509-306-3822 | GitHub Portfolio\n\n\n\nData Science student at BYU-Idaho seeking Summer 2026 internship opportunities. Expecting to graduate by the end of 2026.\n\n\nMachine Learning, Financial Data Analysis.\n\n\n\n\n2022 - Present Brigham Young University - Idaho Data Science Major (AI Engineering & Statistics Minors) - Career Specific GPA: 3.9 - Expected Graduation: Fall 2026\n\n\n\nJanuary 2025 Time-Series Financial Forecasting Model (ML) Solo Project – Wrangling & ML Modeling - Engineered a Random Forest/XGBoost model to forecast S&P 500 returns using 120+ macroeconomic features. - Validated via strict sequential splitting to prevent data leakage; achieved 54% upside recall.\nJanuary 2025 Economic Insights: Financial Crisis vs. Covid Crisis Solo Project – Wrangling & Visualization - Executed a comparative R-based macro analysis of GFC vs. COVID crises using FRED and ETF data. - Quantified the structural failure of diversification, showing near-perfect sector correlation (0.94–1.00) during the COVID shock.\nAugust 2025 MS Gene Expression Analysis Solo Project – Wrangling & Stat Tests/Modeling - Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling. - Identified statistically significant differential expression in 2 immune-related genes with proper model validation.\n\n\n\nFeb 2023 - Aug 2024 KeyBank, Yakima WA Private Client Banker - Analyzed client financial data for 300+ accounts, achieving a 30% increase in product adoption and a 95% satisfaction rating. - Facilitated loan applications and retirement planning, transitioning over $500,000 into investment products.\n\n\n\nProgramming & Tools Python, C#, SQL, R, Power BI, Excel, SQLite3.\nLibraries - Python: Pandas, NumPy, Lets-Plot, Scikit-learn, TensorFlow, Keras. - R: Tidyverse, TidyQuant, Lubridate, Mosaic, SF, Car.\nLicenses - Series 6 & 63 FINRA\n\n\n\n\nMath/Stats: Linear Algebra, Probability and Statistics, Linear Regression, Bayesian Statistics, Discrete Mathematics, Multivariable Calculus.\nComputer Science: SQL, Object Oriented Programming, Data Structures Programming.\nData Science: Data Wrangling and Visualization, Machine Learning, ML OPS, Library Creation."
+    "text": "Data Science Major | AI Engineering Minor | Statistics Minor"
   },
   {
     "objectID": "resume.html#currently",
     "href": "resume.html#currently",
     "title": "Brock Ellis Resume",
-    "section": "",
-    "text": "Data Science student at BYU-Idaho seeking Summer 2026 internship opportunities. Expecting to graduate by the end of 2026.\n\n\nMachine Learning, Financial Data Analysis."
+    "section": "Currently",
+    "text": "Currently\nData Science student at BYU-Idaho seeking Summer 2026 internship opportunities. Expecting to graduate by the end of 2026.\n\nSpecialized in\nMachine Learning, Financial Data Analysis."
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Brock Ellis Resume",
-    "section": "",
-    "text": "2022 - Present Brigham Young University - Idaho Data Science Major (AI Engineering & Statistics Minors) - Career Specific GPA: 3.9 - Expected Graduation: Fall 2026"
+    "section": "Education",
+    "text": "Education\n2022 - Present Brigham Young University - Idaho Data Science Major (AI Engineering & Statistics Minors) - Career Specific GPA: 3.9 - Expected Graduation: Fall 2026"
   },
   {
     "objectID": "resume.html#awards",
@@ -368,8 +368,8 @@
     "objectID": "resume.html#experience",
     "href": "resume.html#experience",
     "title": "Brock Ellis Resume",
-    "section": "",
-    "text": "Feb 2023 - Aug 2024 KeyBank, Yakima WA Private Client Banker - Analyzed client financial data for 300+ accounts, achieving a 30% increase in product adoption and a 95% satisfaction rating. - Facilitated loan applications and retirement planning, transitioning over $500,000 into investment products."
+    "section": "Experience",
+    "text": "Experience\nFeb 2023 - Aug 2024 KeyBank, Yakima WA Private Client Banker - Analyzed client financial data for 300+ accounts, achieving a 30% increase in product adoption and a 95% satisfaction rating. - Facilitated loan applications and retirement planning, transitioning over $500,000 into investment products."
   },
   {
     "objectID": "Cleansing_Projects/Covid_GFC.html#maximum-drawdown-comparison",
@@ -526,21 +526,21 @@
     "objectID": "resume.html#projects",
     "href": "resume.html#projects",
     "title": "Brock Ellis Resume",
-    "section": "",
-    "text": "January 2025 Time-Series Financial Forecasting Model (ML) Solo Project – Wrangling & ML Modeling - Engineered a Random Forest/XGBoost model to forecast S&P 500 returns using 120+ macroeconomic features. - Validated via strict sequential splitting to prevent data leakage; achieved 54% upside recall.\nJanuary 2025 Economic Insights: Financial Crisis vs. Covid Crisis Solo Project – Wrangling & Visualization - Executed a comparative R-based macro analysis of GFC vs. COVID crises using FRED and ETF data. - Quantified the structural failure of diversification, showing near-perfect sector correlation (0.94–1.00) during the COVID shock.\nAugust 2025 MS Gene Expression Analysis Solo Project – Wrangling & Stat Tests/Modeling - Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling. - Identified statistically significant differential expression in 2 immune-related genes with proper model validation."
+    "section": "Projects",
+    "text": "Projects\nOctober 2025 Multi-Horizon S&P 500 Forecasting Pipeline (R/Python) - Built an end-to-end ML pipeline, extracting 120+ macro and technical indicators via Tidyquant and engineering a high-dimensional feature set of multi-period lags (3m, 6m, 1y, 2y) to capture short and long-term momentum.\n\nDeveloped a Random Forest / XGBoost Multi-Class Classifier in Python to categorize monthly returns into four risk regimes, ranging from “Strong Positive” (\\(&gt;1.5\\%\\)) to “Tail Risk” (\\(&lt;-1.5\\%\\)).\nImplemented Strict Sequential Splitting (Time-Series CV) to eliminate look-ahead bias/data leakage; achieved a 54% recall on “Strong Positive” returns, outperforming baseline random-walk expectations.\nOptimized model hyperparameters to address asymmetric loss, prioritizing the reduction of False Negatives in downside risk detection for improved capital preservation.\n\nDecember 2025 Economic Insights: Financial Crisis vs. Covid Crisis Solo Project – Wrangling & Visualization - Engineered a comparative analysis of the 2008 Financial Crisis and 2020 COVID shock using R (Tidyquant/XTS), pulling live data via FRED API to model the intersection of equity returns and macro indicators (Unemployment, CPI, Fed Funds).\n\nQuantified the “Diversification Melt-down” by constructing sector correlation heatmaps; identified a 25% surge in cross-sector synchronization during COVID (0.94+ correlation) compared to the more heterogeneous GFC regime.\nModeled Tail Risk by calculating Maximum Drawdown and Risk-Return profiles for 11 SPDR sectors, demonstrating the transition from a demand-driven deflationary crisis (GFC) to a supply-driven inflationary shock (COVID).\n\nJune 2025 MS Gene Expression Analysis Solo Project – Wrangling & Stat Tests/Modeling - Analyzed gene expression data to identify Multiple Sclerosis biomarkers through statistical hypothesis testing and logistic regression modeling.\n\nIdentified statistically significant differential expression in 2 immune-related genes with proper model validation."
   },
   {
     "objectID": "resume.html#technical-skills",
     "href": "resume.html#technical-skills",
     "title": "Brock Ellis Resume",
-    "section": "",
-    "text": "Programming & Tools Python, C#, SQL, R, Power BI, Excel, SQLite3.\nLibraries - Python: Pandas, NumPy, Lets-Plot, Scikit-learn, TensorFlow, Keras. - R: Tidyverse, TidyQuant, Lubridate, Mosaic, SF, Car.\nLicenses - Series 6 & 63 FINRA"
+    "section": "Technical Skills",
+    "text": "Technical Skills\nProgramming & Tools Python, C#, SQL, R, Power BI, Excel, SQLite3.\nLibraries - Python: Pandas, NumPy, Lets-Plot, Scikit-learn, TensorFlow, Keras. - R: Tidyverse, TidyQuant, Lubridate, Mosaic, SF, Car.\nLicenses - Series 6 & 63 FINRA"
   },
   {
     "objectID": "resume.html#relevant-coursework",
     "href": "resume.html#relevant-coursework",
     "title": "Brock Ellis Resume",
-    "section": "",
-    "text": "Math/Stats: Linear Algebra, Probability and Statistics, Linear Regression, Bayesian Statistics, Discrete Mathematics, Multivariable Calculus.\nComputer Science: SQL, Object Oriented Programming, Data Structures Programming.\nData Science: Data Wrangling and Visualization, Machine Learning, ML OPS, Library Creation."
+    "section": "Relevant Coursework",
+    "text": "Relevant Coursework\n\nMath/Stats: Linear Algebra, Probability and Statistics, Linear Regression, Bayesian Statistics, Discrete Mathematics, Multivariable Calculus.\nComputer Science: SQL, Object Oriented Programming, Data Structures Programming.\nData Science: Data Wrangling and Visualization, Machine Learning, ML OPS, Library Creation."
   }
 ]
