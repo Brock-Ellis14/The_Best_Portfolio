@@ -1,15 +1,27 @@
 ---
-title: "Sector & Economic Insights: Financial Crisis vs COVID Crisis"
-execute: 
-  warning: false
-  message: false
-  echo: false
+title: "Financial Crisis vs COVID Crisis"
+subtitle: "Sector & Economic Insights"
+author: "Brock Ellis"
 format:
   html:
-    code-fold: true
+    self-contained: true
     page-layout: full
-    fig-width: 9
-    fig-height: 6
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
 ---
 
 # Data Import
