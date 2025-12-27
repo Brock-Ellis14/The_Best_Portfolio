@@ -22,9 +22,12 @@ Machine Learning, Financial Data Analysis.
 
 `2022 - Present`
 __Brigham Young University - Idaho__
+
 *Data Science Major (AI Engineering & Statistics Minors)*
-- **Career Specific GPA:** 3.9
-- **Expected Graduation:** Fall 2026
+
+- Career Specific **GPA**: 3.9
+
+- Expected Graduation: Fall 2026
 
 ## Projects
 
@@ -59,24 +62,33 @@ __MS Gene Expression Analysis__
 
 `Feb 2023 - Aug 2024`
 __KeyBank__, Yakima WA
+
 *Private Client Banker*
+
 - Analyzed client financial data for 300+ accounts, achieving a 30% increase in product adoption and a 95% satisfaction rating.
+
 - Facilitated loan applications and retirement planning, transitioning over $500,000 into investment products.
 
 ## Technical Skills
 
 **Programming & Tools**
-Python, C#, SQL, R, Power BI, Excel, SQLite3.
+
+Python, SQL, R, Power BI, Excel, C#
 
 **Libraries**
-- **Python:** Pandas, NumPy, Lets-Plot, Scikit-learn, TensorFlow, Keras.
+
+- **Python:** Pandas, NumPy, Scikit-learn, TensorFlow, Keras, XGboost, lets-plot
+
 - **R:** Tidyverse, TidyQuant, Lubridate, Mosaic, SF, Car.
 
 **Licenses**
+
 - Series 6 & 63 FINRA
 
 ## Relevant Coursework
 
 - **Math/Stats:** Linear Algebra, Probability and Statistics, Linear Regression, Bayesian Statistics, Discrete Mathematics, Multivariable Calculus.
+
 - **Computer Science:** SQL, Object Oriented Programming, Data Structures Programming.
+
 - **Data Science:** Data Wrangling and Visualization, Machine Learning, ML OPS, Library Creation.
