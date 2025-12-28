@@ -24,13 +24,13 @@ website:
         file: index.qmd
       - text: "My Resume"
         file: resume.qmd
-      - text: "Data Cleansing"
+      - text: "Market Research"
         file: cleansing.qmd
-      - text: "Data Exploration"
+      - text: "Asset Pricing"
         file: exploration.qmd
-      - text: "Story Telling"
+      - text: "Algorithmic Studies"
         file: story_telling.qmd
-      - text: "Machine Learning"
+      - text: "Systems & Tools"
         file: ml.qmd
       - text: "Full Stack"
         file: full_stack.qmd
@@ -41,11 +41,11 @@ website:
   # comment out any of the sections below to turn off the sidebar
 
   sidebar: 
-    - title: "Data Cleansing"
+    - title: "Market Research"
       style: "docked"
       background: light
       contents:
-        - text: "Data Cleansing"
+        - text: "Market Research"
           file: cleansing.qmd
         - text: "---"
         - text: "Project 1"
@@ -57,11 +57,11 @@ website:
         - text: "Project 3"
           file: Cleansing_Projects/project3.qmd
         - text: "---"
-    - title: "Data Exploration"
+    - title: "Asset Pricing"
       style: "docked"
       background: light
       contents:
-        - text: "Data Exploration"
+        - text: "Asset Pricing"
           file: exploration.qmd
         - text: "---"
         - text: "Project 1"
@@ -73,11 +73,11 @@ website:
         - text: "Project 3"
           file: Cleansing_Exploration/project3.qmd
         - text: "---"
-    - title: "Story Telling"
+    - title: "Algorithmic Studies"
       style: "docked"
       background: light
       contents:
-        - text: "Story Telling"
+        - text: "Algorithmic Studies"
           file: story_telling.qmd
         - text: "---"
         - text: "Project 1"
@@ -89,11 +89,11 @@ website:
         - text: "Project 3"
           file: Story_Telling/project3.qmd
         - text: "---"
-    - title: "Machine Learning"
+    - title: "Systems & Tools"
       style: "docked"
       background: light
       contents:
-        - text: "Machine Learning"
+        - text: "Systems & Tools"
           file: ml.qmd
         - text: "---"
         - text: "Project 1"
